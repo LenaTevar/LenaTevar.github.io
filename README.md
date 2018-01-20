@@ -1,5 +1,9 @@
-# LenaTevar.github.io
+# Lena Tevar
+## LenaAlcie - Helena Tevar
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+Student of Software Technologies in the LNU Växjö - Sweden
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+##This year goals
+* The program! First priority
+* Attending DataTjej Konferensen 2018
+* [Arcadia](https://github.com/LenaTevar/Arcadia), my first minecraft mod
