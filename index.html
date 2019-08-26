@@ -1,130 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Helena</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
-   
-    
-    <script
-      src="https://kit.fontawesome.com/2828f7885a.js"
-      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="icon" type="image/png" href="" />
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
-
   <body>
-    <!-- Begin Preloader -->
-    <div class="preloader-wrapper">
-      <div class="preloader">
-        <img src="img/bikeroad.jpg" alt="" />
+  <!-- HERO BEGIN -->
+  <div class="hero_background">
+    <img src="img/bikeroad.jpg" alt="" height="300px" />
+    </div>
+  <section class="hero is-medium is-overlay">
+    <div class="hero-body">
+      <div class="container ">
+        <h1 class="title has-text-white">
+          Helena
+        </h1>
+        <h2 class="subtitle has-text-white">
+          Computer Science senior student
+        </h2>
       </div>
     </div>
-    <!-- End Preloader-->
-    <!-- Begin Scroll Up Button -->
+  </section>
+  <!-- HERO END -->
+  <!-- BREADCRUMB-->
+  <nav class="breadcrumb is-centered has-bullet-separator" aria-label="breadcrumbs">
+    <ul>
+      <li><a href="#about-me">About me</a></li>
+      
+      <li><a href="#my-work">My Work</a></li>
+      <!--
+      <li><a href="#">Components</a></li>
+      <li class="is-active"><a href="#" aria-current="page">Breadcrumb</a></li>
+      -->
+    </ul>
+  </nav>
+  <!-- BREADCRUMB END-->
 
-    <form action="#home">
-      <button id="toTop" title="Go to top">
-        <i class="fas fa-angle-up"></i>
-      </button>
-    </form>
-    <!-- End Scroll Up Button -->
-    
-
-    <!-- Begin Header -->
-    <div class="header-wrapper" id="home">
-      <!-- Begin Hero -->
-      <section class="hero is-overlay is-large">
-        <!-- Begin Mobile Nav -->
-        <nav class="navbar is-transparent is-hidden-desktop">
-          <!-- Begin Burger Menu -->
-          <div class="navbar-brand">
-            <div class="navbar-burger burger" data-target="mobile-nav">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-          <!-- End Burger Menu -->
-          <div id="mobile-nav" class="navbar-menu">
-            <div class="navbar-end">
-              <div class="navbar-item">
-                <a class="navbar-item" href="#home">
-                  Home
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#about-me">
-                  About Me
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#services">
-                  Services
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#skills">
-                  Skills
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#my-work">
-                  My Work
-                </a>
-              </div>
-            </div>
-          </div>
-        </nav>
-        <!-- End Mobile Nav -->
-        <!-- Begin Hero Content-->
-        <div class="hero-body has-bg-img">
-          <div class="container has-text-centered">
-            <h1 class="subtitle">Hey there, I'm</h1>
-            <h2 class="title">Helena</h2>
-            <h1 class="subtitle profession">A CS Student</h1>
-          </div>
-        </div>
-        <!-- End Hero Content-->
-        <!-- Begin Hero Menu -->
-        <div class="hero-foot ">
-          <div class="hero-foot--wrapper">
-            <div class="columns">
-              <div class="column is-12 hero-menu-desktop has-text-centered breadcrumb is-centered">
-                <ul>
-                  <li class="is-active">
-                    <a href="#home">Home</a>
-                  </li>
-                  <li>
-                    <a href="#about-me">About Me</a>
-                  </li>
-                  <li>
-                    <a href="#services">Services</a>
-                  </li>
-                  <li>
-                    <a href="#skills">Skills</a>
-                  </li>
-                  <li>
-                    <a href="#my-work">My Work</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End Hero Menu -->
-      </section>
-      <!-- End Hero -->
-    </div>
-    <!-- End Header -->
-
-    <!-- Begin Main Content -->
-    <div class="main-content">
-      <!-- Begin About Me Section -->
-      <div class="section-light about-me" id="about-me">
+  <!--MAIN CONTENT-->
+  <!-- End About Me Content -->
+  <div class="main-content">
+    <div class="section-light about-me" id="about-me">
         <div class="container">
           <div class="column is-12 about-me">
             <h1 class="title has-text-centered section-title">About Me</h1>
@@ -135,25 +53,30 @@
               data-aos="fade-right"
             >
               <p class="is-larger">
-                &emsp;&emsp;<strong>Hej hej!</strong>
+               <strong>Hello! I'm Helena (or Lena, whatever) a student of Computer Science from Linne University.</strong>
               </p>
               <br />
               <p>
-                I'm a student of Computer Science from Linnè University (Växjö - Sweden).
-                Right now I'm about to finish my diploma, focusing on small projects to practice. 
-                My university main languages are Java and Angular but that is not all about me. 
-                I'm part of multiple coding organizations in Sweden and Spain, nowadays you can find me
-                mingling with WiTech Växjö. 
+                Right now I'm finishing my program in software development. I had a lot of fun programming little 
+                things with Java/C# and Angular among others, I think what I really learned is how to survive
+                in a new environment each 2 weeks. If you are from some bussiness and you are interested in me, 
+                contact me or add, I'm in desperly need of a mentor. If you are a student from the university 
+                repository, you can find send me a coffee via ko-fi right here. 
+              </p>
+              <p>
+                  But I'm not just a programmer! I love to help and meet new people, I'm member of WiTech Växjö,
+                  I participated in events with Datatjej, I'm also member of FemDevs Spain and I can say I 
+                  have friends everywhere!
               </p>
               <br />
               <div class="is-divider"></div>
               <div class="columns about-links">
                 <div class="column">
                   <p class="heading">
-                    <strong>Check my Github</strong>
+                    <strong>Github</strong>
                   </p>
                   <p class="subheading">
-                    github.com/LenaTevar
+                    LenaTevar
                   </p>
                 </div>
                 <div class="column">
@@ -164,22 +87,35 @@
                     htevar@gmail.com
                   </p>
                 </div>
-                
+                <div class="column">
+                    <p class="heading">
+                      <strong>LinkedIn</strong>
+                    </p>
+                    <p class="subheading">
+                        htevar
+                    </p>
+                  </div>
+                <div class="column">
+                  <p class="heading">
+                    <strong>Send me a coffee</strong>
+                  </p>
+                  <a href='https://ko-fi.com/L3L8118YI' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+                </div>
               </div>
             </div>
             <div class="column is-6 right-image " data-aos="fade-left">
               <img
-                class="is-rounded"
                 src="./img/LenaByNaka.jpg"
-                alt=""
-                width="400"
+                width="400px"
+                alt=""                
               />
             </div>
           </div>
         </div>
       </div>
       <!-- End About Me Content -->
-      <div class="section-dark resume">
+      <!-- RESUME -->
+      <div class="has-background-white-ter ">
         <div class="container">
           <div
             class="columns is-multiline"
@@ -193,20 +129,19 @@
             </div>
             <div class="column is-10 has-text-centered is-offset-1">
               <h2 class="subtitle">
-                I'm updating my Resume, so just wait for it. 
+                I'm still working on it, I will uploade it soon!
               </h2>
               <form action="example.docs">
                 <button class="button">
-                  Download Resume&emsp;<i class="fad fa-download fa-lg"></i>
+                  Download Resume<i class="fad fa-download fa-lg"></i>
                 </button>
               </form>
             </div>
           </div>
         </div>
       </div>
-  
-      
-      <!-- Begin Work Content -->
+      <!-- RESUME END-->
+    <!--  Work Content -->
       <div class="section-dark my-work" id="my-work">
         <div class="container">
           <div
@@ -218,61 +153,86 @@
               <h1 class="title has-text-centered section-title">My Work</h1>
             </div>
             <div class="column is-3">
-              <a href="https://github.com/LenaTevar/LittleAngularShop">
-                <figure
-                  class="image is-2by1 work-item"
-                  style="background-image: url(./img/ecommerce.gif);"
-                ></figure>
-              </a>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./img/ecommerce.gif" alt="Placeholder image">
+                    </div>
+                    <div class="card-header">
+                        <div class="card-header-title">Angular Shop</div>
+                    </div>
+                    <div class="card-content">Ecommerce with Angular, Bootstrap and Firebase.</div>
+                </div>
             </div>
+
             <div class="column is-3">
-              <a href="https://github.com/LenaTevar/Magazon">
-                <figure
-                  class="image is-2by1 work-item"
-                  style="background-image: url(./img/magazon.gif);"
-                ></figure>
-              </a>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./img/magazon.gif" alt="Placeholder image">
+                    </div>
+                    <div class="card-header">
+                        <div class="card-header-title">Magazon made by Unity</div>
+                    </div>
+                    <div class="card-content">Videogame with Unity C#</div>
+                </div>
             </div>
+
             <div class="column is-3">
-              <a href="https://github.com/LenaTevar/LNUCalc">
-                <figure
-                  class="image is-2by1 work-item"
-                  style="background-image: url(./img/LNUCalc.gif);"
-                ></figure>
-              </a>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./img/LNUCalc.gif" alt="Placeholder image">
+                    </div>
+                    <div class="card-header">
+                        <div class="card-header-title">LNU Calc</div>
+                    </div>
+                    <div class="card-content">Simple university credits calculator with Angular + Bootstrap.</div>
+                </div>
             </div>
-            
+
+            <div class="column is-3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://bulma.io/images/bulma-logo.png" alt="Placeholder image">
+                    </div>
+                    <div class="card-header">
+                        <div class="card-header-title">Github page</div>
+                    </div>
+                    <div class="card-content">This page? I guess? Only three cards looks asymetric. Made with raw html and Bulma. </div>
+                </div>
             </div>
+
           </div>
         </div>
       </div>
       <!-- End Work Content -->
- 
-    </div>
-    <!-- End Main Content -->
+  </div>
+  <!--MAIN CONTENT END-->
 
-    <!-- Begin Footer -->
-    <footer class="footer">
-      <div class="content has-text-centered">
-        <p>
-          <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-        </p>
-      </div>
-    </footer>
-    <!-- End Footer -->
+  <!-- Begin Footer -->
+  <div class="footer has-background-grey-dark has-text-white-ter">
+    <p>
+        This template was made by cherry picking from <a href="https://github.com/BulmaTemplates/bulma-templates">Bulma Templates</a>.
+    </p>
+    <p>
+      <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>.
+      The source code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed
+      <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+    </p>
+  </div>
+  <!-- End Footer -->
 
-    <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="../js/showcase.js"></script>
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        easing: "ease-out",
-        duration: 800,
-      });
-    </script>
+
+<!-- scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+      easing: "ease-out",
+      duration: 800,
+    });
+</script>
+<!-- scripts end-->
   </body>
 </html>
+
